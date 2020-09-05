@@ -6,6 +6,7 @@ class SumOfPair
 {	
 	public static void main(String[] args) 
 	{
+			//read the values
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter the length of array:");
 			int len=sc.nextInt();
@@ -21,6 +22,7 @@ class SumOfPair
 			int l=0,r=len-1;
 			boolean returnVal = false;
 			Arrays.sort(arr);
+			//compare with target sum
 			while(l<r)
 			{
 				if(arr[l]+arr[r] == TargetSum)
