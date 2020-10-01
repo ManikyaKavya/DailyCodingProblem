@@ -1,3 +1,6 @@
+/*You are given an M by N matrix consisting of booleans that represents a board. 
+Each True boolean represents a wall. Each False boolean represents a tile you can walk on.*/
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
